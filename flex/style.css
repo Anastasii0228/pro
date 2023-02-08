@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{box-sizing:border-box;}
+.clearflix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* перший блок*/
+
+.block-one {
+    background-image: url("../flex/img/фон.png");
+    background-size: contain;
+    background-repeat: round;
+    width: 1660px;
+    margin: 0px auto;
+    padding: 8px 215px 249px  215px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+.menu-one {
+    padding-left: 0px;
+}
+.list-item-one, .list-item, .list-item-border {
+    display: inline;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: white;
+    font-style: none;
+    margin-left: 20px;
+    text-decoration-line: none;
+}
+.list-item {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.list-item-border{
+   font-weight: 500;
+   border-bottom: 1px #ffffff solid;
+   margin-left: 0px;
+   padding-bottom: 9px;
+   
+}
+.list-item-border:hover {
+    color: #F59B4D;
+}
+.list-item:hover {
+    color: #C98D5A;
+}
+.button-buy {
+    background: none;
+    border: none;
+    color: white;
+    width: 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../flex/img/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.button-buy:hover {
+    color: #C98D5A;
+}
+.shopping-basket {
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+.title-one {
+    font-family: Montserrat;
+    font-size: 73px;
+    font-weight: 800;
+    line-height: 74px;
+    justify-content: flex-start;
+    color: white;
+    width: 50%;
+    padding-bottom: 35px;
+    margin: 0px;
+}
+.text-one {
+    margin: 0px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 26px;
+    justify-content: flex-start;
+    color:white;
+    width: 40%;
+}
+.button-block-one {
+    background-color: #C98D5A;
+    color: #151616;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    justify-content: flex-start;
+    border-radius: 56px;
+    padding: 30px;
+    margin-top: 64px;
+}
+.button-block-one:hover {
+    background: none;
+    color: #ffffff;
+    padding: 30px;
+    border-color: #C4C4C4;
+}
+
+/* другий блок */
+
+.block-two, .block-four, .footer {
+    width: 1660px;
+    margin: 0px auto;
+    padding: 60px 215px 73px  215px;
+    text-align: center;
+    background-color: #EBEBEB;
+}
+.title-two, .title-free, .title-four, .title-five {
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 74px;
+    padding-bottom: 36px;
+    color: #151616;
+    margin: 0px;
+}
+.table-card {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 43px;
+}
+.card-block, .card-block-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 36px;
+}
+.card-block-end {
+    padding-left: 0px;
+}
+.foto-card {
+    padding-bottom: 22px;
+    text-align: center;
+}
+.text-block-two, .text-block-four, .text-right, .title-footer, .text-footer, .phone-footer {
+    width: 244px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #151616;
+    text-align: center;
+    margin: 0px;
+    padding-top: 13px;
+}
+
+/*третій блок*/
+
+.block-tree, .block-five {
+    width: 1660px;
+    margin: 0px auto;
+    padding: 53px 215px 141px  215px;
+    text-align: center;
+    background-image: url("../flex/img/Mask\ group5.png");
+    background-size: cover;
+}
+.title-free {
+    color: #ffffff;
+    padding-bottom: 67px;
+}
+.button-block {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    column-gap: 12px;
+    margin-bottom: 73px;
+    justify-content: center;
+}
+.menu-button {
+    background: none;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    border-radius: 56px;
+    padding: 15px 45px;
+    border-color: #C4C4C4;
+}
+.menu-button:hover {
+    background-color: #C98D5A;
+    color: #000;
+    padding: 15px 45px;
+    border-color: #C98D5A;
+}
+.free-card {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.card-one, .card-one-end {
+    width: 307px;
+    padding: 26px 37px 17px 37px;
+    border-radius: 30px;
+    background-color: #1F1F1F;
+    margin-right: 55px;
+}
+.card-one-end {
+    margin-right: 0px;
+}
+.title-block-card {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+    color: #C4C4C4;
+    margin: 0px;
+}
+.text-block-free {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #C4C4C4;
+    width: 100%;
+    margin: 0px;
+}
+.arrow-blok-end {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 13px;
+}
+.number-arrow {
+    background-color: #F59B4D;
+    border: 1px solid;
+    padding: 5px 9px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.one-foto-card {
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 21px;
+}
+.two-foto-card {
+    text-align: center;
+    padding-top: 9px;
+}
+.free-foto-card {
+    text-align: center;
+    padding-top: 29px;
+    padding-bottom: 19px;
+}
+
+/* Четвертий блок */
+
+.block-four {
+    padding: 49px 215px 76px 215px;
+    background-color: #E5E5E5;
+}
+.text-block-four {
+    width: 100%;
+    color: #000;
+    text-align: left;
+    padding-top: 33px;
+    padding-bottom: 22px;
+    margin: 0px;
+}
+.text-right-div{
+    text-align: right;
+
+}
+.text-right {
+    color: #000;
+    padding-top: 0px;
+}
+
+/* Пятий блок */
+
+.block-five {
+    padding: 73px 215px 80px 215px;
+}
+.title-five {
+    color: #ffffff;
+    padding-bottom: 65px;
+}
+.block-menu-foto {
+    display: flex;
+    justify-content: center;
+}
+.block-foto-one {
+    width: 300px;
+    margin: 0px;
+}
+.foto-menu {
+    padding-bottom: 30px;
+}
+.foto-menu-big {
+    padding: 0px 30px 0px 30px;
+}
+
+/* шостий блок */
+
+.footer {
+    background-color: #000;
+    padding: 12px 215px 12px 215px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-footer {
+    color: #ffffff;
+    text-align: left;
+    margin: 0px;
+    padding-bottom: 8px;;
+    font-weight: 700;
+    line-height: 20px;
+}
+.text-footer {
+    color: #ffffff;
+    width: 100%;
+    text-align: left;
+    margin: 0px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.phone-footer {
+    color: #ffffff;
+    margin: 0px;
+    font-weight: 700;
+    line-height: 29px;
+}
+.footer-text-block {
+    text-align: left;
+    width: 60%;
+}
